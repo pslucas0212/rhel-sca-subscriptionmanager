@@ -1,6 +1,6 @@
 # RHEL 8 using Subscription Manager with SCA Enabled
 
-- Enable SCA on your Red Hat customer portal account - How do I enable Simple Content Access for Red Hat Subscription Management? - in the (Simple Content Access article)[https://access.redhat.com/articles/simple-content-access]
+- Enable SCA on your Red Hat customer portal account - How do I enable Simple Content Access for Red Hat Subscription Management? - in the [Simple Content Access article](https://access.redhat.com/articles/simple-content-access)
 
 - Register a system via subscription manager
 
