@@ -2,18 +2,19 @@
 
 - Enable SCA on your Red Hat customer portal account - How do I enable Simple Content Access for Red Hat Subscription Management? - in the [Simple Content Access article](https://access.redhat.com/articles/simple-content-access)
 
+- Create an activation key with no subscriptions attached.
+
 - Register a system via subscription manager
 
       # subscription-manager register --org=xxxxxxxxx --activationkey=rhel_test 
       
+- Verify that the registered system content access mode is set to SCA
+
+      # subscription-manager status
+      
 - Check which repos are enabled
 
       # subscription-manager repos --list-enabled
-      
-- Subscription manager auto-attach
-
-      # subscription-manager auto-attach --show
-      # subscription-manager autp-attache --enable/disable
       
 - Insights setup for RHEL 8
 
