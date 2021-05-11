@@ -108,6 +108,9 @@ Updated - 11 May 2021
 ![Subscriptions Systems](/images/S14.png)
 
 ---
+### Reviewing your RHEL Systems in Insights
+
+---
 ### Reference
 
 - How do I enable Simple Content Access for Red Hat Subscription Management? - in the [Simple Content Access article](https://access.redhat.com/articles/simple-content-access)
