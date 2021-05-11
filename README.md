@@ -108,7 +108,39 @@ Updated - 11 May 2021
 ![Subscriptions Systems](/images/S14.png)
 
 ---
-### Reviewing your RHEL Systems in Insights
+### Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecyc Updates.
+
+- We won't be reviewing all of Insights capabilites in this section, but we will review a few things Insights to see how a RHEL add-on like Extended Lifecycle Support (ELS).  Note: There is a time lag between when you register a system with Insights and the Insights client has updated your Insights view.
+
+- Login to Insights -> [Login](https://cloud.redhat.com/)
+- On the Hybred Cloud Console, chose the the Red Hat Enterprise Link on the left side of the screen
+
+![Red Hat Hybrid Cloud Console](/images/S15.png)
+
+- On the Insights "home page", you'll be presented with a Dashboard view of your Insights registered RHEL systems.
+
+![Insights Dashboard](/images/S16.png)
+
+- Click on the Inventory Link on the left to get a list of RHEL systems registered with Insights.
+- I'm going to chose server03 as it is a RHEL 6.10 system with the ELS repo enabled.  
+
+![Inventory View](/images/S17.png)
+
+- Now can view the details of server03 on the General Informaton tab page.  While on the Generatl Infoofmation tab page, croll down to see the number repositories enabled for server03.  You'll note in this example there are two repositories enabled: one for RHEL 6 RPMs ans one for RHEL 6 ELS
+
+![server03 example](/images/S18.png)
+![server03 repos link](/images/S19.png)
+
+- Click on the Repositories link to see the Repositories enabled for this system. You can filter the dialog box to see just the Enabled repositories.
+
+![Enabled Repositories](/images/S20.png)
+
+- .... view the patch page....
+- Now we will compare this with a RHEL 6 that does not have the ELS repository enabled
+
+
+
+
 
 ---
 ### Reference
