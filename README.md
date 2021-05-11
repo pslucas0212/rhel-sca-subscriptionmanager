@@ -15,6 +15,12 @@
 
 ![Red Hat Customer Portal page - Subscriptions](/images/S02.png)
 
+- On the Overview page slide the switch next to the Simple content access for Red Hat Subscription Management text to the right to enable SCA.  The background of the slider switch will turn blue and the text will change from Disabled to Enabled
+
+![Simple Content Access Disabled](/images/S03.png)
+
+![Simple Content Access Enabled](/images/S04.png)
+
 
 - Create an activation key with no subscriptions attached. 
 
