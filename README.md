@@ -6,7 +6,7 @@
 
 - Insights is great tool for seeing and managing RHEL content, and automaticaly patching and remediating your RHEL instances.  Insights works with RHEL 6.4+, 7.0+ and 8.0+.  I would recommend enabling Insights regardless of your content subscription strategy.  
 
-## Enable SCA on your Red Hat customer portal account
+### Enable SCA on your Red Hat customer portal account
 - Login in to the Red Hat Customer Portal  -> [Login](https://access.redhat.com/)
 
 ![Red Hat Customer Portal login page](/images/S01.png)
@@ -22,7 +22,7 @@
 ![Simple Content Access Enabled](/images/S04.png)
 
 
-- Create an activation key with no subscriptions attached. 
+### Create an activation key with no subscriptions attached. 
 
 - Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+
 
