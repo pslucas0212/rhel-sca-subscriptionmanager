@@ -45,7 +45,7 @@ Updated - 11 May 2021
 
 ---
 ### Registering System, Adding Repos and Enabling Insights
-- Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+
+- Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+l  Note: You will need to use sudo or be root to execute these comands.
 
       # subscription-manager register --org=xxxxxxxxx --activationkey=sca_enabled 
       
@@ -77,7 +77,8 @@ Updated - 11 May 2021
       # yum -y install insights-client
       # insights-client --enable
       
-      
+---     
+### Review your registered Systems on the Red Hat Customer Portal
 
 ---
 ### Reference
