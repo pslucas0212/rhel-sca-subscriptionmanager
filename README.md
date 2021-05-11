@@ -8,6 +8,7 @@
 
 ## Enable SCA on your Red Hat customer portal account
 - Login in to the Red Hat Customer Portal  -> [Login](https://access.redhat.com/)
+![image](rhel-sca-subscriptionmanager/images/S01.png)
 
 - Create an activation key with no subscriptions attached. 
 
