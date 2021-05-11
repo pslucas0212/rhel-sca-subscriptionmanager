@@ -136,9 +136,13 @@ Updated - 11 May 2021
 
 ![Enabled Repositories](/images/S20.png)
 
-- .... view the patch page....
-- Now we will compare this with a RHEL 6 that does not have the ELS repository enabled
+- If we now click on the Patch tab, we see that because we enabled the RHEL 6 ELS repository with server03, there is ELS related content available (dated after 1 December 2020) for server03
 
+![server03 patch content](/images/S21.png)
+
+- Now we will compare the content available to a RHEL 6 instance (server05) that does not have the RHEL 6 ELS repository enabled.  You can see that there is no new contenet available to this server since 1 December 2020.
+
+![server05 patch content](/images/S22.png)
 
 
 
