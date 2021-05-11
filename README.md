@@ -82,12 +82,12 @@ Updated - 11 May 2021
 ---     
 ### Review your Registered Systems on the Red Hat Customer Portal
 
-- Click on the Systems tab link in the Red Hat Customer Portal (Note: You need to be in your Subscriptions.
+- Click on the Systems tab link in the Red Hat Customer Portal (Note: You need to be in your Subscriptions on the Red Hat Customer Portal.)
 - You'll note that there is a question mark (?) by each System Name. This happens when SCA is enabled as you no longer need to attach a subscription to a registered system.  If any subscrptions are attached to a registered system, the number of subscriptions attached wil be registered in the third column.
 
 ![Sytems View](/images/S09.png)
 
-- To see details regarding the systems click on the system name and make sure you are on the Details.  On the Details tab page you will notice that the Subscription Management status is unknown and that no subscriptons are attached to the RHEL instance.
+- To see details of a registered system, click on the system name and make sure you are on the Details tab page.  On the Details tab page you will notice that the Subscription Management status is unknown and that no subscriptons are attached to the RHEL instance.
 
 ![Sytems Detail Tab](/images/S10.png)
 
@@ -99,7 +99,7 @@ Updated - 11 May 2021
 
 ![Subscription with attached subscription](/images/S12.png)
 
-- Back on the Red Hat customer Potal page chose the Subscriptions link.  In the Subscriptions page, scroll through the list and choose a subscription to review.  In that Subscription page make sure you are on the Overview tab pagel.  Here you can see the subscription quantity available and the number of subscriptions consumed.
+- Back on the Red Hat customer Potal page chose the Subscriptions link.  In the Subscriptions page, scroll through the list and choose a subscription to review.  In that Subscription page make sure you are on the Overview tab page.  Here you can see the subscription quantity available and the number of subscriptions consumed.
 
 ![Subscriptions Overview](/images/S13.png)
 
