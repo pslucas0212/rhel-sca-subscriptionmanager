@@ -23,7 +23,7 @@ Updated - 11 May 2021
 
 ![Simple Content Access Enabled](/images/S04.png)
 
-
+---
 ### Create an activation key with no subscriptions attached. 
 
 - For registering RHEL with Red Hat Subscription Management, I recommend using an Activation Key insteading linking the registration to a user.
@@ -43,7 +43,7 @@ Updated - 11 May 2021
 
 ![New Activation Key Availabe](/images/S08.png)
 
-
+---
 ### Registering System, Adding Repos and Enabling Insights
 - Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+
 
@@ -79,8 +79,8 @@ Updated - 11 May 2021
       
       
 
-
-## Reference
+---
+### Reference
 
 - How do I enable Simple Content Access for Red Hat Subscription Management? - in the [Simple Content Access article](https://access.redhat.com/articles/simple-content-access)
 - [Subscription Manager Command Cheat Sheet](https://access.redhat.com/sites/default/files/attachments/rh_sm_command_cheatsheet_1214_jcs_print.pdf)
