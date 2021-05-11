@@ -35,7 +35,7 @@ Updated - 11 May 2021
 
 ![Click New button](/images/S06.png)
 
-- On the New Activation Key page, fill in the Name text field with name of your activation key.  Chose Disabled from the Auto Attach drop down.  Scroll to the bottom of the page and click the Create button.
+- On the New Activation Key page, fill in the Name text field with name of your activation key.  Chose a name that makes sense for your organization.  Chose Disabled from the Auto Attach drop down.  Scroll to the bottom of the page and click the Create button.
 
 ![Create New Activation Key](/images/S07.png)
 
@@ -47,7 +47,7 @@ Updated - 11 May 2021
 ### Registering System, Adding Repos and Enabling Insights
 - Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+
 
-      # subscription-manager register --org=xxxxxxxxx --activationkey=rhel_test 
+      # subscription-manager register --org=xxxxxxxxx --activationkey=sca_enabled 
       
 - Verify that the registered system content access mode is set to SCA.  Note: You will only see the SCA status on RHEL 7.0+ and RHEL 8.0+
 
