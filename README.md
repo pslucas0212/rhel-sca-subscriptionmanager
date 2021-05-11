@@ -20,10 +20,11 @@
 
       # subscription-manager repos --enable rhel-6-server-els-rpms    
       
-- You can still attach specific subs (ELS subscription) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.
+- You can still attach specific subs (ELS subscription) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate this on your Red Hat Customer Portal page under Subscriptions.
 
       # subscription-manager list --available
       # subscription-manager subscribe --pool=xxxxxxxxxxxxxxxxxxxxxxxx
+      # subscription-manager list
       
 - Insights setup for RHEL 8
 
