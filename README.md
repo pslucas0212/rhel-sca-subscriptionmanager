@@ -55,15 +55,15 @@ Updated - 11 May 2021
 
       # subscription-manager status
       
-- Check which repos are enabled for RHEL 7.0+ and 8.0+
+- Check which repositories are enabled for RHEL 7.0+ and 8.0+
 
       # subscription-manager repos --list-enabled
      
-- Repo enablement example
+- Repository enablement example
 
       # subscription-manager repos --enable rhel-6-server-els-rpms    
       
-- You can still attach specific subs (ELS subscription) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
+- You can still attach specific subscriptions (a RHEL 6 ELS subscription for example) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
 
       # subscription-manager list --available
       # subscription-manager subscribe --pool=xxxxxxxxxxxxxxxxxxxxxxxx
