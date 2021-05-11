@@ -1,5 +1,7 @@
 # RHEL - Using Subscription Manager with Simple Content Access Enabled
 
+Updated - 11 May 2021
+
 - Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particluar system or environment.  A great use case for SCA is when you want to manage the content of public cloud market place instances of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management subscription with a public cloud market place instances of RHEL without consuming a RHEL subscription (no double counting subscription usage).  You do need a Red Hat Smart Management subscrtption to support each public cloud market place instance of RHEL that will use Red hat Smart Management.
 
 - With SCA enabled, you no longer can view in the Red Hat Customer Portal subscription section the consumption of particluar add-ons used with your RHEL instances.  You can see which Repos are attached to a particular instance.  If you want to see the consumption of a particular add-on like the Extended Life Cycle subscription, you can attach that specific subscription to a RHEL instance.
@@ -24,6 +26,25 @@
 
 ### Create an activation key with no subscriptions attached. 
 
+- For registering RHEL with Red Hat Subscription Management, I recommend using an Activation Key insteading linking the registration to a user.
+- Click the Manage drop down link near the upper right of the Red Hat Subscription Mangement page and chose ActivationKeys.
+
+![Chose Managae | Activation Keys](/images/S05.png)
+
+- Click the New button on the right side of the Activation Keys for Organization ID:xxxxxxxxxx page to create a new Activation Key.
+
+![Click New button](/images/S06.png)
+
+- On the New Activation Key page, fill in the Name text field with name of your activation key.  Chose Disabled from the Auto Attach drop down.  Scroll to the bottom of the page and click the Create button.
+
+![Create New Activation Key](/images/S07.png)
+
+- Your activation key is ready to use for registering systems with SCA.
+
+![New Activation Key Availabe](/images/S08.png)
+
+
+### Registering System, Adding Repos and Enabling Insights
 - Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+
 
       # subscription-manager register --org=xxxxxxxxx --activationkey=rhel_test 
