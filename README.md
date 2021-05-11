@@ -82,6 +82,7 @@ Updated - 11 May 2021
 ---     
 ### Review your Registered Systems on the Red Hat Customer Portal
 
+- Note: Even with SCA enabled, you can attach susbscriptions to systems if for some reason you want to track and control the subscription usage of a specific add-on like an ELS subscription.
 - Click on the Systems tab link in the Red Hat Customer Portal (Note: You need to be in the Subscriptions section on the Red Hat Customer Portal.)
 - You'll note that there is a question mark (?) by each System Name. This happens when SCA is enabled as you no longer need to attach a subscription to a registered system.  If any subscrptions are attached to a registered system, the number of subscriptions attached wil be registered in the third column.
 
@@ -99,7 +100,7 @@ Updated - 11 May 2021
 
 ![Subscription with attached subscription](/images/S12.png)
 
-- Back on the Red Hat customer Potal page chose the Subscriptions link.  In the Subscriptions page, scroll through the list and choose a subscription to review.  In that Subscription page make sure you are on the Overview tab page.  Here you can see the subscription quantity available and the number of subscriptions consumed.
+- Back on the Red Hat customer Portal page chose the Subscriptions link.  In the Subscriptions page, scroll through the list and choose a subscription to review.  In that Subscription page make sure you are on the Overview tab page.  Here you can see the subscription quantity available and the number of subscriptions consumed.
 
 ![Subscriptions Overview](/images/S13.png)
 
