@@ -12,7 +12,7 @@
 
       # subscription-manager status
       
-- Check which repos are enabled
+- Check which repos are enabled for RHEL 8.0+ and 7.0+
 
       # subscription-manager repos --list-enabled
      
