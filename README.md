@@ -6,6 +6,8 @@ Updated - 11 May 2021
 
 - With SCA enabled, you no longer can view in the Red Hat Customer Portal subscription section the consumption of particluar add-ons used with your RHEL instances.  You can see which Repos are attached to a particular instance.  If you want to see the consumption of a particular add-on like the Extended Life Cycle subscription, you can attach that specific subscription to a RHEL instance.
 
+- Note: Even if you are not attaching a subscription to a Red Hat Software product, you are required to have an active subscription for every instance of that product even if the product is in Extended Phase Lifecycle.  If you are running RHEL 4 or 5 along with any other current versions of RHEL, you are required to have active subscriptions to cover all those instances of RHEL.
+
 - Insights is great tool for seeing and managing RHEL content, and automaticaly patching and remediating your RHEL instances.  Insights works with RHEL 6.4+, 7.0+ and 8.0+.  I would recommend enabling Insights regardless of your content subscription strategy.  
 
 ### Enable SCA on your Red Hat customer portal account
