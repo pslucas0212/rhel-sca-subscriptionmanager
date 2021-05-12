@@ -174,4 +174,4 @@ Updated - 11 May 2021
 
 - How do I enable Simple Content Access for Red Hat Subscription Management? - in the [Simple Content Access article](https://access.redhat.com/articles/simple-content-access)
 - [Subscription Manager Command Cheat Sheet](https://access.redhat.com/sites/default/files/attachments/rh_sm_command_cheatsheet_1214_jcs_print.pdf)
-- [CHAPTER 5. SYSTEM TAGS AND GROUPS](https://access.redhat.com/documentation/en-us/red_hat_insights/2020-10/html/client_configuration_guide_for_red_hat_insights/insights-client-tagging-overview-con) - Create custom tags for your RHEL systems to use a filters on inventory
+- [CHAPTER 5. SYSTEM TAGS AND GROUPS](https://access.redhat.com/documentation/en-us/red_hat_insights/2020-10/html/client_configuration_guide_for_red_hat_insights/insights-client-tagging-overview-con) - Create custom tags for your RHEL systems to use a filter on inventory views
