@@ -71,6 +71,11 @@ Updated - 11 May 2021
       # subscription-manager subscribe --pool=xxxxxxxxxxxxxxxxxxxxxxxx
       # subscription-manager list
       
+- Since you are not assigning a subscription to the RHEL instance, we cannot know if the RHEL instance should count against Premium, Standard or Self-Support subscription.  You can set the RHEL SLA level from the command line with Subscription Manager (premium, standard, self-support, none).  Setting the SLA level for each RHEL instance well help you to better understand your subscription usage when viewing subscription consumption in Red Hat Insights.
+
+      # subscription-manager service-level --set=premium
+      # subscription-manager service-level --show
+              
 
 - Insights setup for RHEL 8
 
@@ -151,14 +156,11 @@ Updated - 11 May 2021
 
 ![server05 patch content](/images/S22.png)
 
-- Finally you can track your subscription usage in the Subscriptions section of the Red Hat Enterprise Linux view of Red Hat Insights.  Note: This track your RHEL usage and subscriptions at a high level i.e. the number RHEL subsriptions of any type against the number of deployed RHE systems.  It doesn include add-ons subacriptions.  You can get a more granular view by filtering on SLA by Premium, Standard, Self-Support, or No SLA.
+- Finally you can track your subscription usage in the Subscriptions section of the Red Hat Enterprise Linux view of Red Hat Insights.  Note: This tracks your RHEL usage and subscriptions at a high level i.e. the number RHEL subsriptions of any type against the number of deployed RHE systems.  It doesn include add-ons in the subscripton usage view.  If you've have set the service-level with the subscription-manage (see stepa above), you can get a more granular view by filtering on SLA by Premium, Standard, Self-Support, or No SLA.
 
 ![Subscriptions View](/images/S24.png)
 
-- You can set the RHEL SLA level from the command line with Subscription Manager (premium, standard, self-support, none).  Setting the SLA level for each RHEL instance well help you to better understand your subscription usage.
 
-      # subscription-manager service-level --set=self-support
-      # subscription-manager service-level --show
       
 
 ---
