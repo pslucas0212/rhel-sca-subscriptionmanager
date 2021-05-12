@@ -71,12 +71,18 @@ Updated - 11 May 2021
       # subscription-manager subscribe --pool=xxxxxxxxxxxxxxxxxxxxxxxx
       # subscription-manager list
       
-- Since you are not assigning a subscription to the RHEL instance, we cannot know if the RHEL instance should count against Premium, Standard or Self-Support subscription.  You can set the RHEL SLA level from the command line with Subscription Manager (premium, standard, self-support, none).  Setting the SLA level for each RHEL instance well help you to better understand your subscription usage when viewing subscription consumption in Red Hat Insights.
+- Since you are not assigning a subscription to the RHEL instance, we cannot know if the RHEL instance should count against Premium, Standard or Self-Support subscription.  You can set the RHEL SLA level from the command line with Subscription Manager.  Setting the SLA level for each RHEL instance well help you to better understand your subscription usage when viewing subscription consumption in Red Hat Insights.  
+
+- Service Level for RHEL 6.0+ and 7.0+ (premium, standard, self-support).
 
       # subscription-manager service-level --set=premium
       # subscription-manager service-level --show
               
+- Service Level for RHEL 8.0+ (Premium, Standard, or Self-Support).
 
+      # subscription-manager service-level --set=Premium
+      # subscription-manager service-level --show
+      
 - Insights setup for RHEL 8
 
       # insights-client --enable
