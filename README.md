@@ -151,8 +151,15 @@ Updated - 11 May 2021
 
 ![server05 patch content](/images/S22.png)
 
+- Finally you can track your subscription usage in the Subscriptions section of the Red Hat Enterprise Linux view of Red Hat Insights.  Note: This track your RHEL usage and subscriptions at a high level i.e. the number RHEL subsriptions of any type against the number of deployed RHE systems.  It doesn include add-ons subacriptions.  You can get a more granular view by filtering on SLA by Premium, Standard, Self-Support, or No SLA.
 
+![Subscriptions View](/images/S23.png)
 
+- You can set the RHEL SLA level from the command line with Subscription Manager (premium, standard, self-support, none).  Setting the SLA level for each RHEL instance well help you to better understand your subscription usage.
+
+      # subscription-manager service-level --set=self-support
+      # subscription-manager service-level --show
+      
 
 ---
 ### Reference
