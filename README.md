@@ -8,6 +8,8 @@ Updated - 11 May 2021
 
 - Note: Even if you are not attaching a subscription to a Red Hat Software product, you are required to have an active subscription for every instance of that product even if the product is in Extended Phase Lifecycle.  For example, if you are running RHEL 4 or 5 along with any other current versions of RHEL, you are required to have active subscriptions to cover all those instances of RHEL.
 
+- It is recommended that you use Subscription Watch to determine the number of RHEL instances that are being used vs. the number of subscriptions you are entitled to use.
+
 - Insights is great tool for seeing and managing RHEL content, and automaticaly patching and remediating your RHEL instances.  Insights works with RHEL 6.4+, 7.0+ and 8.0+.  I would recommend enabling Insights regardless of your content subscription strategy.  
 
 ### Enable SCA on your Red Hat customer portal account
@@ -141,7 +143,11 @@ Updated - 11 May 2021
 
 ![server03 patch content](/images/S21.png)
 
-- Now we will compare the content available to a RHEL 6 instance (server05) that does not have the RHEL 6 ELS repository enabled.  You can see that there is no new contenet available to this server since 1 December 2020.
+- Now we will compare the content available to a RHEL 6 instance (server05) that does not have the RHEL 6 ELS repository enabled.  We first review the repositories enabled on server05 and see that only one repository, RHEL 6 RPMs, is enabled
+
+![server05 enabled repositories](/images/S23.png)
+ 
+- Next we go to server05 Patch tab page.  We can see that there is no new content available to this server since 1 December 2020.  With SCA we simple enable the repositories we need associated with a particular RHEL instance to access that content with out attaching a subscription.
 
 ![server05 patch content](/images/S22.png)
 
