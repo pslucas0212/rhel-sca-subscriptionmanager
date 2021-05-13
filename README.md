@@ -1,6 +1,6 @@
 # RHEL - Using Subscription Manager with Simple Content Access Enabled
 
-Updated - 11 May 2021
+Updated - 13 May 2021
 
 - Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particluar system or environment.  A great use case for SCA is when you want to manage the content of public cloud market place instance of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management subscription with a public cloud market place instances of RHEL without consuming a RHEL subscription (no double counting subscription usage).  You need a Red Hat Smart Management subscrtption to support each public cloud market place instance of RHEL that will use Red hat Smart Management.
 
@@ -64,7 +64,7 @@ Updated - 11 May 2021
 - Repository enablement example
 
       # subscription-manager repos --enable rhel-6-server-els-rpms    
-      
+ 
 - You can still attach specific subscriptions (a RHEL 6 ELS subscription for example) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
 
       # subscription-manager list --available
@@ -84,6 +84,8 @@ Updated - 11 May 2021
       # subscription-manager service-level --show
       
 - Besides setting the SLA level on your RHEL instance, you can add custom tags to your RHEL instance via the Insights client.  You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
+
+- Addtional notes coming soon.
 
 
 - Don't forget to install the Insights client to take full advantage of all the capabilites that are part of your RHEL subscription.  No other Linux distribution offers the same capabilites as Insights.
