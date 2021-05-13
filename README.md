@@ -83,7 +83,7 @@ Updated - 11 May 2021
       # subscription-manager service-level --set=Premium
       # subscription-manager service-level --show
       
-- Besides setting the SLA leved on your RHEL instance, you can add custom tags to your RHEL instance via the Insights client.  You can the use these tags in Insights to create more granular views of your systems and what those systems are consumeing.  For a complete overview of tagging see the article link in the reference section below.
+- Besides setting the SLA level on your RHEL instance, you can add custom tags to your RHEL instance via the Insights client.  You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
 
 
 - Don't forget to install the Insights client to take full advantage of all the capabilites that are part of your RHEL subscription.  No other Linux distribution offers the same capabilites as Insights.
