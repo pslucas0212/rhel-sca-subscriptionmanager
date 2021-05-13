@@ -68,7 +68,7 @@ Updated - 13 May 2021
 - You can easily find a repository name via the Red Hat Customer Portal.  After logging in to the Red Hat Customer Portal, click on the subscription link near the upper left of the screen.  In the Subscriptios page, click the Subscriptions Tab page and navigate to the subscription with the repository that you want to enable.
 - On the product page, click on the Content tab.  I would suggest using the filter field to narrow down the repository list.  Look for the Repository Label for the Repository that you want to enable on your RHEL instance.
 
-![Repository Label](/images/S25.png)
+![Repository Label](/images/s25.png)
  
 - You can still attach specific subscriptions (a RHEL 6 ELS subscription for example) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
 
