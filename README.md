@@ -147,7 +147,7 @@ Updated - 13 May 2021
       
 - Now when you go to view your RHEL system in Insights, on heyou can filter on the group
 
-- Pic coming soon!
+- Pic coming soon...
 
 - You can additional custom tags to your server instance now
 - Navigate to /etc/insights and edit the tags.yaml file.  You can create any number of tags that can be used to filter your systems in Insights.
@@ -165,6 +165,9 @@ Repos:
 - rhel-7-server-satellite-6.9-rpms
 - rhel-7-server-rpms
 ```
+
+- Discuss filter example here...
+- Add filter exmple pic here...
 
 ---
 ### Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
