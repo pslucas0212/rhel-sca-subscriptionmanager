@@ -133,7 +133,8 @@ Updated - 13 May 2021
 
 - You can create groups and custom tags to your RHEL instance via the Insights client.  See thi section overview below.You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
 
-- Create your first group
+- You can create a tag from the command line or by creating tags.yaml file in the /etc/insights-client directory
+- Create your first group with the insights-client
 
       # insights-client --group=production-rhel8-premium
 
@@ -149,7 +150,7 @@ Updated - 13 May 2021
 
 - Pic coming soon...
 
-- You can additional custom tags to your server instance now
+- Create or add additional custom tags to your server instance now in the tags.yaml file.
 - Navigate to /etc/insights and edit the tags.yaml file.  You can create any number of tags that can be used to filter your systems in Insights.
 - Here's an example of an update tags.yamlfile.
 
