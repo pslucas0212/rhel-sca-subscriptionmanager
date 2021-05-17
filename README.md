@@ -153,7 +153,7 @@ Updated - 13 May 2021
 - Navigate to /etc/insights and edit the tags.yaml file.  You can create any number of tags that can be used to filter your systems in Insights.
 - Here's an example of an update tags.yamlfile.
 
-``
+```
 # tags
 ---
 group: rhel7
@@ -164,7 +164,7 @@ Location:
 Repos:
 - rhel-7-server-satellite-6.9-rpms
 - rhel-7-server-rpms
-``
+```
 
 ---
 ### Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
