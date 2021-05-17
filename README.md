@@ -88,10 +88,6 @@ Updated - 13 May 2021
       # subscription-manager service-level --set=Premium
       # subscription-manager service-level --show
       
-- Besides setting the SLA level on your RHEL instance, you can add custom tags to your RHEL instance via the Insights client.  You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
-
-- Addtional notes coming soon.
-
 
 - Don't forget to install the Insights client to take full advantage of all the capabilites that are part of your RHEL subscription.  No other Linux distribution offers the same capabilites as Insights.
 - Insights setup for RHEL 8
@@ -103,6 +99,22 @@ Updated - 13 May 2021
       # yum -y install insights-client
       # insights-client --enable
       
+- Besides setting the SLA level on your RHEL instance, you can add custom tags to your RHEL instance via the Insights client.  You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
+
+- Create your first group
+
+      # insights-client --group=production-rhel8-premium
+
+- The Insights client will create the group, collect data about your RHEL server and upload to Insights.  The output the above insights-client command would like the following
+
+      # insights-client --group=production-rhel8-premium
+      Starting to collect Insights data for serv01.example.com
+      Uploading Insights data.
+      Successfully uploaded report from serv01.example.com to account xxxxxxx.
+      View details about this system on cloud.redhat.com: https://cloud.redhat.com/insights/inventory/9xxx063-xx02-4x9xe-xxxx-9x30x54x9638
+      
+      
+        
 ---     
 ### Review your Registered Systems on the Red Hat Customer Portal
 
