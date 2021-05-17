@@ -165,7 +165,10 @@ Repos:
 - rhel-7-server-satellite-6.9-rpms
 - rhel-7-server-rpms
 ```
+- After updating the /etc/insights-client/tags.yaml file run the insights-client to upload the changes to insights
 
+      # insights-client
+      
 - Discuss filter example here...
 - Add filter exmple pic here...
 
