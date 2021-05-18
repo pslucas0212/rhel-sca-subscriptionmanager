@@ -173,7 +173,7 @@ Repos:
 - In the Inventory when you look at your registered server list, you'll see in Tags column the Tag is now "highlighted" with a numver next to the tag icon.  THe number next to the Tag icon represents the number of tags associated with a particular RHEL instance.
 - Clicking on a Tag icon for a particular server pops up a dialog box with tags available for a specific registered servier.
 
-![Server tag example](/images/tag02.png)
+![Server tag example](/images/tag02a.png)
 ![Server tag dialog box](/images/tag03.png)
 
 - Add filter exmple pic here...
