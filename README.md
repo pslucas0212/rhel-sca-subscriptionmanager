@@ -176,7 +176,26 @@ Repos:
 ![Server tag example](/images/tag02a.png)
 ![Server tag dialog box](/images/tag03.png)
 
-- Add filter exmple pic here...
+- Let's look at example at using some of the tags I created to filter our Inventory view.
+- In the Inventory tab under Inventory section, click the Funnel icon (filter) drop down list and click on the Tags option
+
+![Funnel icon drop down and Tags option](/images/tag04.png)
+
+- Click the filter drop down list to see all the tags availabe.  I have created more tags then can fit on one dialog box, so I'm going to change dialog view to show all of my tags.  Click the x more tags available link.
+
+![Filter system by tag drop down](/images/tag05.png)
+
+- In the All tags inventory dialog box, click the 1 of x drop down and chose how many tag per page you would like to see in this dialog box.
+
+![All tags in inventory drop down](/images/tag06.png)
+
+- Now in the All tags inventory dialog box, chose the tag you want to use to create a system view and click the Apply tags button at the bottom of the dialog box.
+
+![All tags in inventory drop down chose tags](/images/tag07.png)
+
+- Now we can see how many system meet our view optons.  Click the Clear filters link to reset you Inventory view.
+
+![Filtered Inventory view](/images/tag08.png)
 
 ---
 ### Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
