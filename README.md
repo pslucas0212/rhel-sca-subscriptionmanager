@@ -146,7 +146,9 @@ Updated - 17 May 2021
       Successfully uploaded report from serv01.example.com to account xxxxxxx.
       View details about this system on cloud.redhat.com: https://cloud.redhat.com/insights/inventory/9xxx063-xx02-4x9xe-xxxx-9x30x54x9638
       
-- Now when you go to view your RHEL system in Insights, on heyou can filter on the group
+- Now when you go to view your RHEL system in Insights under invent you can filter by any groups create.
+
+![Filter by group tag](/images/t01.png)
 
 - Pic coming soon...
 
