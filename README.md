@@ -146,13 +146,11 @@ Updated - 17 May 2021
       Successfully uploaded report from serv01.example.com to account xxxxxxx.
       View details about this system on cloud.redhat.com: https://cloud.redhat.com/insights/inventory/9xxx063-xx02-4x9xe-xxxx-9x30x54x9638
       
-- Now when you go to view your RHEL system in Insights under invent you can filter by any groups create.
+- Now when you go to view your RHEL system in Insights under the Inventory tab you can filter by any groups you have created
 
 ![Filter by group tag](/images/tag01.png)
 
-- Pic coming soon...
-
-- Create or add additional custom tags to your server instance now in the tags.yaml file.
+- You can now add custom tags to your server instance in the tags.yaml file. TCstom tags provide you with many ways to create custom views of your systems in the Inventory tab.
 - Navigate to /etc/insights and edit the tags.yaml file.  You can create any number of tags that can be used to filter your systems in Insights.
 - Here's an example of an update tags.yamlfile.
 
@@ -172,7 +170,12 @@ Repos:
 
       # insights-client
       
-- Discuss filter example here...
+- In the Inventory when you look at your registered server list, you'll see in Tags column the Tag is now "highlighted" with a numver next to the tag icon.  THe number next to the Tag icon represents the number of tags associated with a particular RHEL instance.
+- Clicking on a Tag icon for a particular server   shows dialog box with tags available for a specific registered servier.
+
+![Server tag example](/images/tag02.png)
+
+
 - Add filter exmple pic here...
 
 ---
