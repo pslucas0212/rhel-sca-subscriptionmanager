@@ -148,7 +148,7 @@ Updated - 17 May 2021
       
 - Now when you go to view your RHEL system in Insights under invent you can filter by any groups create.
 
-![Filter by group tag](/images/t01.png)
+![Filter by group tag](/images/tag01.png)
 
 - Pic coming soon...
 
