@@ -12,7 +12,7 @@ Updated - 18 May 2021
 
 - Insights is great tool for seeing and managing RHEL content, and automaticaly patching and remediating your RHEL instances.  Insights works with RHEL 6.4+, 7.0+ and 8.0+.  I would recommend enabling Insights regardless of your content subscription strategy.  
 
-### Enable SCA on your Red Hat customer portal account
+## Enable SCA on your Red Hat customer portal account
 - Login in to the Red Hat Customer Portal  -> [Login](https://access.redhat.com/)
 
 ![Red Hat Customer Portal login page](/images/S01.png)
@@ -48,7 +48,7 @@ Updated - 18 May 2021
 ![New Activation Key Availabe](/images/S08.png)
 
 ---
-### Registering System, Adding Repos and Enabling Insights
+## Registering System, Adding Repos and Enabling Insights
 - Register a system via subscription manager for RHEL 6.0+, 7.0+ and 8.0+.  Note: You will need to use sudo or be root to execute these commands.
 
       # subscription-manager register --org=xxxxxxxxx --activationkey=your_key_here
@@ -100,7 +100,7 @@ Updated - 18 May 2021
       # insights-client --enable
         
 ---     
-### Review your Registered Systems on the Red Hat Customer Portal
+## Review your Registered Systems on the Red Hat Customer Portal
 
 - Note: Even with SCA enabled, you can attach susbscriptions to systems if for some reason you want to track and control the subscription usage of a specific add-on like an ELS subscription.
 - Click on the Systems tab link in the Red Hat Customer Portal (Note: You need to be in the Subscriptions section on the Red Hat Customer Portal.)
@@ -129,8 +129,9 @@ Updated - 18 May 2021
 ![Subscriptions Systems](/images/S14.png)
 
 ---
-### Reviewing your RHEL systems with groups and custom tags
+## Reviewing your RHEL systems with groups and custom tags in Red Hat Insights
 
+- Access your Red Hat Insights -> ![Login to Insights](https://cloud.redhat.com/insights/)
 - You can create groups and custom tags to your RHEL instance via the Insights client.  See thi section overview below.You can the use these tags in Insights to create more granular views of your systems.  For a complete overview of tagging see the article link in the reference section below.
 
 - You can create a tag from the command line or by creating tags.yaml file in the /etc/insights-client directory
@@ -166,7 +167,7 @@ Repos:
 - rhel-7-server-satellite-6.9-rpms
 - rhel-7-server-rpms
 ```
-- After updating the /etc/insights-client/tags.yaml file run the insights-client to upload the changes to insights
+- After updating the /etc/insights-client/tags.yaml file run the insights-client to upload the changes to insights.  Note that running the insights-client comman immediately refreshes your insights data.
 
       # insights-client
       
@@ -198,7 +199,7 @@ Repos:
 ![Filtered Inventory view](/images/tag08.png)
 
 ---
-### Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
+## Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
 
 - We won't be reviewing all of Insights capabilites in this section, but we will review a couple of things in Insights so that you can check that your RHEL ELS 6 content is available to your RHEL system with the ELS reposiotry enabled.  Note: There is a time lag between when you register a system to Insights and when the Insights client has updated your Insights view.
 
