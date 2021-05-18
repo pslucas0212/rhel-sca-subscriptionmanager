@@ -1,6 +1,6 @@
 # RHEL - Using Subscription Manager with Simple Content Access Enabled
 
-Updated - 17 May 2021
+Updated - 18 May 2021
 
 - Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particluar system or environment.  A great use case for SCA is when you want to manage the content of public cloud market place instance of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management subscription with a public cloud market place instances of RHEL without consuming a RHEL subscription (no double counting subscription usage).  You need a Red Hat Smart Management subscrtption to support each public cloud market place instance of RHEL that will use Red hat Smart Management.
 
@@ -171,10 +171,10 @@ Repos:
       # insights-client
       
 - In the Inventory when you look at your registered server list, you'll see in Tags column the Tag is now "highlighted" with a numver next to the tag icon.  THe number next to the Tag icon represents the number of tags associated with a particular RHEL instance.
-- Clicking on a Tag icon for a particular server   shows dialog box with tags available for a specific registered servier.
+- Clicking on a Tag icon for a particular server pops up a dialog box with tags available for a specific registered servier.
 
 ![Server tag example](/images/tag02.png)
-
+![Server tag dialog box](/images/tag03.png)
 
 - Add filter exmple pic here...
 
