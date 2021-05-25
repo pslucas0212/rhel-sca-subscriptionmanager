@@ -2,7 +2,7 @@
 
 Updated - 18 May 2021
 
-- Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particluar system or environment.  A great use case for SCA is when you want to manage the content of public cloud market place instance of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management with a public cloud market place instance of RHEL to manage the marketplace content without consuming a RHEL subscription (no double counting subscription usage).  You need a Red Hat Smart Management subscription to support each public cloud market place instance of RHEL that will use Red Hat Smart Management.
+- Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particular system or environment.  A great use case for SCA is when you want to manage the content of public cloud market place instance of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management with a public cloud market place instance of RHEL to manage the marketplace content without consuming a RHEL subscription (no double counting subscription usage).  You need a Red Hat Smart Management subscription to support each public cloud market place instance of RHEL that will use Red Hat Smart Management.
 
 - With SCA enabled, you no longer can view Red Hat software consumption in the Red Hat Customer Portal subscription section.  You can see which repositories are attached to a particular RHEL instance.  If you want to see the consumption of a particular add-on like the Extended Life Cycle subscription, you can attach that specific subscription to a RHEL instance.
 
@@ -33,7 +33,7 @@ Updated - 18 May 2021
 - For registering RHEL with Red Hat Subscription Management, I recommend using an Activation Key instead of linking the registration to a user.
 - Click the Manage drop down link near the upper right of the Red Hat Subscription Mangement page and chose ActivationKeys.
 
-![Chose Managae | Activation Keys](/images/S05.png)
+![Chose Manage | Activation Keys](/images/S05.png)
 
 - Click the New button on the right side of the Activation Keys for Organization ID:xxxxxxxxxx page to create a new Activation Key.
 
@@ -65,12 +65,12 @@ Updated - 18 May 2021
 
       # subscription-manager repos --enable rhel-6-server-els-rpms    
       
-- You can easily find a repository name via the Red Hat Customer Portal.  After logging in to the Red Hat Customer Portal, click on the subscription link near the upper left of the screen.  In the Subscriptios page, click the Subscriptions Tab page and navigate to the subscription with the repository that you want to enable.
+- You can easily find a repository name via the Red Hat Customer Portal.  After logging in to the Red Hat Customer Portal, click on the subscription link near the upper left of the screen.  In the Subscriptions page, click the Subscriptions Tab page and navigate to the subscription with the repository that you want to enable.
 - On the product page, click on the Content tab.  I would suggest using the filter field to narrow down the repository list.  Look for the Repository Label for the Repository that you want to enable on your RHEL instance.
 
 ![Repository Label](/images/S25.png)
  
-- You can still attach specific subscriptions (a RHEL 6 ELS subscription for example) if you want to track their subscription usage.  Find the Pool ID of the subcription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
+- You can still attach specific subscriptions (a RHEL 6 ELS subscription for example) if you want to track their subscription usage.  Find the Pool ID of the subscription you want to attach, and then subscribe to that pool.  Use subscription-manger list to see that the correct subscription is attached to your RHEL instance.  You can also validate that the subscription is attached to your RHEL instance on your Red Hat Customer Portal page under Subscriptions.
 
       # subscription-manager list --available
       # subscription-manager subscribe --pool=xxxxxxxxxxxxxxxxxxxxxxxx
@@ -89,7 +89,7 @@ Updated - 18 May 2021
       # subscription-manager service-level --show
       
 
-- Don't forget to install the Insights client to take full advantage of all the capabilites that are part of your RHEL subscription.  No other Linux distribution offers the same capabilites as Insights.
+- Don't forget to install the Insights client to take full advantage of all the capabilities that are part of your RHEL subscription.  No other Linux distribution offers the same capabilities as Insights.
 - Insights setup for RHEL 8
 
       # insights-client --enable
@@ -102,15 +102,15 @@ Updated - 18 May 2021
 ---     
 ## Review your Registered Systems on the Red Hat Customer Portal
 
-- Note: Even with SCA enabled, you can attach susbscriptions to systems if for some reason you want to track and control the subscription usage of a specific add-on like an ELS subscription.
+- Note: Even with SCA enabled, you can attach subscriptions to systems if for some reason you want to track and control the subscription usage of a specific add-on like an ELS subscription.
 - Click on the Systems tab link in the Red Hat Customer Portal (Note: You need to be in the Subscriptions section on the Red Hat Customer Portal.)
 - You'll note that there is a question mark (?) by each System Name. This happens when SCA is enabled as you no longer need to attach a subscription to a registered system.  If any subscrptions are attached to a registered system, the number of subscriptions attached wil be registered in the third column.
 
-![Sytems View](/images/S09.png)
+![Systems View](/images/S09.png)
 
 - To see the details of a registered system, click on the system name and make sure you are on the Details tab page.  On the Details tab page you will notice that the Subscription Management status is unknown and that no subscriptons are attached to the RHEL instance.
 
-![Sytems Detail Tab](/images/S10.png)
+![Systems Detail Tab](/images/S10.png)
 
 - Click on the Subscriptions tab.  You'll notice that there is no subscription information on the Subscriptions Tab page.
 
@@ -124,7 +124,7 @@ Updated - 18 May 2021
 
 ![Subscriptions Overview](/images/S13.png)
 
-- In the same subcription page click the Systems tab to see which RHEL instances have the subscription attached to them.
+- In the same subscription page click the Systems tab to see which RHEL instances have the subscription attached to them.
 
 ![Subscriptions Systems](/images/S14.png)
 
@@ -172,7 +172,7 @@ Repos:
       # insights-client
       
 - In the Inventory when you look at your registered server list, you'll see in Tags column the Tag icon is now "highlighted" with a number next to the Tag icon.  THe number next to the Tag icon represents the number of tags associated with a particular RHEL instance.
-- Clicking on a Tag icon for a particular server pops up a dialog box with tags available for a specific registered servier.
+- Clicking on a Tag icon for a particular server pops up a dialog box with tags available for a specific registered server.
 
 ![Server tag example](/images/tag02a.png)
 ![Server tag dialog box](/images/tag03.png)
@@ -182,7 +182,7 @@ Repos:
 
 ![Funnel icon drop down and Tags option](/images/tag04.png)
 
-- Click the filter drop down list to see all the tags availabe.  I have created more tags then can fit on one dialog box, so I'm going to change dialog view to show all of my tags.  Click the x more tags available link.
+- Click the filter drop down list to see all the tags available.  I have created more tags then can fit on one dialog box, so I'm going to change dialog view to show all of my tags.  Click the x more tags available link.
 
 ![Filter system by tag drop down](/images/tag05.png)
 
@@ -201,7 +201,7 @@ Repos:
 ---
 ## Reviewing your RHEL Systems in Insights for RHEL 6 Extended Lifecycle Updates.
 
-- We won't be reviewing all of Insights capabilites in this section, but we will review a couple of things in Insights so that you can check that your RHEL ELS 6 content is available to your RHEL system with the ELS reposiotry enabled.  Note: There is a time lag between when you register a system to Insights and when the Insights client has updated your Insights view.
+- We won't be reviewing all of Insights capabilities in this section, but we will review a couple of things in Insights so that you can check that your RHEL ELS 6 content is available to your RHEL system with the ELS repository enabled.  Note: There is a time lag between when you register a system to Insights and when the Insights client has updated your Insights view.
 
 - Login to Insights -> [Login](https://cloud.redhat.com/)
 - On the Hybrid Cloud Console, chose the the Red Hat Enterprise Link on the left side of the screen
@@ -217,7 +217,7 @@ Repos:
 
 ![Inventory View](/images/S17.png)
 
-- You can view the details of server03 on the General Informaton tab page.  While on the General Inforfmation tab page, scroll down to see the number of repositories enabled for server03.  You'll note in this example there are two repositories enabled: one for RHEL 6 RPMs and for RHEL 6 ELS.
+- You can view the details of server03 on the General Information tab page.  While on the General Information tab page, scroll down to see the number of repositories enabled for server03.  You'll note in this example there are two repositories enabled: one for RHEL 6 RPMs and for RHEL 6 ELS.
 
 ![server03 example](/images/S18.png)
 
@@ -239,7 +239,7 @@ Repos:
 
 ![server05 patch content](/images/S22.png)
 
-- Finally you can track your subscription usage in the Subscriptions section of the Red Hat Enterprise Linux view of Red Hat Insights.  Note: This tracks your RHEL usage and subscriptions at a high level i.e. the number RHEL subscriptions of any type against the number of deployed RHEL systems.  It doesn't include add-ons in the subscripton usage view.  If you've have set the RHEL service-level with subscription-manager (see steps above), you can get a more granular view by filtering on SLA by Premium, Standard, Self-Support, or No SLA.
+- Finally you can track your subscription usage in the Subscriptions section of the Red Hat Enterprise Linux view of Red Hat Insights.  Note: This tracks your RHEL usage and subscriptions at a high level i.e. the number RHEL subscriptions of any type against the number of deployed RHEL systems.  It doesn't include add-ons in the subscription usage view.  If you've have set the RHEL service-level with subscription-manager (see steps above), you can get a more granular view by filtering on SLA by Premium, Standard, Self-Support, or No SLA.
 
 ![Subscriptions View](/images/S24.png)
 
