@@ -15,7 +15,7 @@ Updated - 18 May 2021
 ## Enable SCA on your Red Hat customer portal account
 - Login in to the Red Hat Customer Portal  -> [Login](https://access.redhat.com/)
 
-![Red Hat Customer Portal login page](/images/S01.png)
+![Red Hat Customer Portal login page](images/S01.png)
 
 - On the Red Hat Customer Portal page, click the Subscriptions link in the upper left corner.
 
