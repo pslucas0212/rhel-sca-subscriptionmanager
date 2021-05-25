@@ -19,7 +19,7 @@ Updated - 18 May 2021
 
 - On the Red Hat Customer Portal page, click the Subscriptions link in the upper left corner.
 
-![Red Hat Customer Portal page - Subscriptions](/images/S02.png)
+![Red Hat Customer Portal page - Subscriptions](images/S02.png)
 
 - On the Overview page, move the slider switch to the right to enable SCA.  The background of the slider switch will turn blue and the text will change from Disabled to Enabled
 
