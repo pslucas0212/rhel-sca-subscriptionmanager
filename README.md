@@ -2,6 +2,7 @@
 
 
 This three part article was published in three parts on Red Hat's blog between 24 August 2021 and 9 September 2021.  For the latest updated version of this article published on redhat.com, click on this link for a pdf copy -> [Simple Content Access and Red Hat Insights with Subscription Manager](https://github.com/pslucas0212/rhel-sca-subscriptionmanager/blob/main/Simple%20Content%20Access%20and%20Red%20Hat%20Insights%20with%20Subscription%20Manager.pdf)  
+
 This entry was last update on 18 May 2021
 
 - Simple Content Access (SCA) allows you to register Red Hat software to access Red Hat software content without attaching a subscription to a particular system or environment.  A great use case for SCA is when you want to manage the content of a public cloud marketplace instance of RHEL with Red Hat Smart Management. SCA enables you to use a Red Hat Smart Management with a public cloud market place instance of RHEL to manage the marketplace content without consuming a RHEL subscription (no double counting subscription usage).  You need a Red Hat Smart Management subscription to support each public cloud marketplace instance of RHEL that will use Red Hat Smart Management.
