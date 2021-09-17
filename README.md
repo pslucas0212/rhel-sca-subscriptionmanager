@@ -1,7 +1,7 @@
 # RHEL - Using Subscription Manager with Simple Content Access Enabled
 
 
-This three part article was published in three parts on Red Hat's blog between 24 August 2021 and 8 September 2021.  For the latest updated version of this article published on redhat.com, click on this link for a pdf copy -> [Simple Content Access and Red Hat Insights with Subscription Manager](https://github.com/pslucas0212/rhel-sca-subscriptionmanager/blob/main/Simple%20Content%20Access%20and%20Red%20Hat%20Insights%20with%20Subscription%20Manager.pdf)  
+This three part article was published in three parts on Red Hat's blog between 24 August 2021 and 8 September 2021.  For the latest updated version of this article published on redhat.com, click on this link for a pdf copy -> [Simple Content Access and Red Hat Insights with Subscription Manager](https://github.com/pslucas0212/rhel-sca-subscriptionmanager/blob/main/Simple%20Content%20Access%2C%20Red%20Hat%20Insights%20with%20Subscription%20Manager.pdf)  
 
 This entry was last update on 18 May 2021
 
